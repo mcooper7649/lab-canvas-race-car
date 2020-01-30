@@ -1,9 +1,4 @@
-window.onload = function() {
-  document.getElementById("start-button").onclick = function() {
-    startGame();
-  };
-
-  function startGame() {
-
-  }
-};
+document.querySelector('#start-button').onclick = function() {
+  this.remove();
+  startGame();
+}
